@@ -7,7 +7,7 @@
     <h1 id="logo">Onikon</h1>
     <nav>
       <ul>
-        <li><router-link to="/onikon">Dashboard</router-link></li>
+        <li><router-link to="/">Dashboard</router-link></li>
         <li><router-link to="/chart">Chart</router-link></li>
       </ul>
     </nav>

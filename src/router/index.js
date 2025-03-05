@@ -3,12 +3,12 @@ import HomePage from '@/components/pages/HomePage.vue';
 import MainDashboard from '@/components/pages/MainDashboard.vue';
 
 const routes = [
-  { path: '/onikon', component: HomePage },
+  { path: '/', component: HomePage },
   { path: '/chart', component: MainDashboard}
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/onikon/'),
   routes
 });
 
