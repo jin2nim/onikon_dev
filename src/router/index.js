@@ -3,7 +3,7 @@ import HomePage from '@/components/pages/HomePage.vue';
 import MainDashboard from '@/components/pages/MainDashboard.vue';
 
 const routes = [
-  { path: '/', component: HomePage },
+  { path: '/onikon', component: HomePage },
   { path: '/chart', component: MainDashboard}
 ];
 
